@@ -63,9 +63,19 @@
                 box-shadow: 0 5px 5px #000;
             }
 
-            .quotes {
+            .quote {
                 background: #9b7862;
                 color: #FFF;
+            }
+
+            blockquote p {
+                font-size: 24px;
+                margin: 0 0 5px 0;
+            }
+
+            blockquote cite:before {
+                content: '-';
+                margin-right: 5px;
             }
 
             footer {
@@ -104,8 +114,11 @@
             </div>
         </section>
 
-        <section class="quotes">
-            quotes
+        <section class="quote">
+            <blockquote class="container">
+                <p>"C'est stylé de ouf"</p>
+                <cite>Dieu de la bouffe et des séries</cite>
+            </blockquote>
         </section>
 
         <footer>
