@@ -1,0 +1,19 @@
+{
+  "name": "mario_sokoban_landing_page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css --style expanded --no-source-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxkerf/mario_sokoban_landing_page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxkerf/mario_sokoban_landing_page/issues"
+  },
+  "homepage": "https://github.com/maxkerf/mario_sokoban_landing_page#readme"
+}
