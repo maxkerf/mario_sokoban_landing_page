@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:./css/style.css --style expanded --no-source-map"
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css --style expanded --no-source-map",
+    "prefix": "postcss ./public/css/style.css --use autoprefixer -d ./public/css/prefixed",
+    "minify": "sass ./public/css/prefixed/style.css:./public/css/compressed/style.css --style compressed --no-source-map"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,6 @@
   "bugs": {
     "url": "https://github.com/maxkerf/mario_sokoban_landing_page/issues"
   },
-  "homepage": "https://github.com/maxkerf/mario_sokoban_landing_page#readme"
+  "homepage": "https://github.com/maxkerf/mario_sokoban_landing_page#readme",
+  "browserslist": "last 4 versions"
 }

@@ -1,0 +1,137 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  font-size: 1.25rem;
+  background: #9b7862;
+  border-radius: 5px;
+  padding: 0.5rem 1rem 0.75rem 1rem;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #8b6c58;
+  box-shadow: 0 0 5px #8b6c58;
+}
+@media screen and (max-width: 480px) {
+  .btn {
+    display: block;
+    font-size: 1.125rem;
+    padding: 0.75rem 0;
+    margin: 0 1.25rem;
+  }
+}
+
+.header {
+  text-align: center;
+  padding: 70px 0;
+  background: #c93f41;
+  color: #fff;
+}
+.header__heading {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+@media screen and (max-width: 480px) {
+  .header__heading {
+    font-size: 2rem;
+  }
+}
+.header__slogan {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: normal;
+}
+@media screen and (max-width: 480px) {
+  .header__slogan {
+    font-size: 1.125rem;
+  }
+}
+
+.footer {
+  text-align: center;
+  padding: 32px 0;
+  background: #353535;
+  color: #828282;
+  /*#868686*/
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+}
+
+.features-grid {
+  text-align: center;
+  padding: 40px 0;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 480px) {
+  .features-grid {
+    padding: 30px 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: unset;
+  }
+}
+
+.feature {
+  margin: 0 25px;
+  max-width: 250px;
+}
+@media screen and (max-width: 480px) {
+  .feature {
+    max-width: 100%;
+  }
+}
+.feature img {
+  width: 100%;
+  box-shadow: 0 5px 5px #000;
+}
+@media screen and (max-width: 480px) {
+  .feature img {
+    width: 80%;
+  }
+}
+.feature__caption {
+  margin: 1rem 0;
+  color: #000;
+}
+
+.quote {
+  background: #9b7862;
+  color: #fff;
+  text-align: center;
+  line-height: 1.75rem;
+  padding: 40px 0;
+}
+@media screen and (max-width: 480px) {
+  .quote {
+    padding: 30px 0;
+  }
+}
+.quote__content {
+  font-size: 1.5rem;
+}
+@media screen and (max-width: 480px) {
+  .quote__content {
+    font-size: 1.125rem;
+  }
+}
+.quote__author {
+  font-style: italic;
+}
+@media screen and (max-width: 480px) {
+  .quote__author {
+    font-size: 0.875rem;
+  }
+}

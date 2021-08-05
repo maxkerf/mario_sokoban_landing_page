@@ -1,0 +1,25 @@
+.header {
+    text-align: center;
+    padding: 70px 0;
+    background: $color-primary;
+    color: $color-white;
+
+    &__heading {
+        font-size: 3rem;
+        margin-bottom: .5rem;
+
+        @include mobile-only {
+            font-size: 2rem;
+        }
+    }
+
+    &__slogan {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        font-weight: normal;
+
+        @include mobile-only {
+            font-size: 1.125rem;
+        }
+    }
+}

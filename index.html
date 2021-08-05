@@ -4,49 +4,43 @@
         <title>Mario Sokoban</title>
         <meta name="viewport" content="width=device-width,initial-scale=1.0" />
         <meta charset="utf-8" />
-        <link rel="icon" type="image/jpg" href="images/box.jpg" />
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="icon" type="image/jpg" href="./public/images/box.jpg" />
+        <link rel="stylesheet" type="text/css" href="./public/css/style.css" />
     </head>
     <body>
-        <header>
-            <div class="container">
-                <h1>Mario Sokoban</h1>
-                <h2>Ce jeu va bouleverser votre vie !</h2>
-                <a class="btn" href="mario_sokoban.zip" download>Télécharger</a>
-            </div>
+        <header class="header">
+            <h1 class="header__heading">Mario Sokoban</h1>
+            <h2 class="header__slogan">Ce jeu va bouleverser votre vie !</h2>
+            <a class="btn" href="mario_sokoban.zip" download>Télécharger</a>
         </header>
 
-        <section class="features">
-            <div class="container">
-                <div class="feature">
-                    <img src="images/aventure.JPG" alt="Image" />
-                    <p>Une aventure époustouflante</p>
-                </div>
+        <section class="features-grid">
+            <div class="feature">
+                <img src="./public/images/aventure.JPG" alt="Image" />
+                <p class="feature__caption">Une aventure époustouflante</p>
+            </div>
 
-                <div class="feature">
-                    <img src="images/creation.JPG" alt="Image" />
-                    <p>Laissez parler votre imagination</p>
-                </div>
+            <div class="feature">
+                <img src="./public/images/creation.JPG" alt="Image" />
+                <p class="feature__caption">Laissez parler votre imagination</p>
+            </div>
 
-                <div class="feature">
-                    <img src="images/defi.JPG" alt="Image" />
-                    <p>Et défiez vos amis sur vos créations</p>
-                </div>
+            <div class="feature">
+                <img src="./public/images/defi.JPG" alt="Image" />
+                <p class="feature__caption">Et défiez vos amis sur vos créations</p>
             </div>
         </section>
 
         <section class="quote">
-            <blockquote class="container">
-                <p>"C'est stylé de ouf"</p>
-                <cite>Dieu de la bouffe et des séries</cite>
-            </blockquote>
+            <q class="quote__content">C'est stylé de ouf</q>
+            <br/>
+            <span class="quote__author">- Dieu de la bouffe et des séries</span>
         </section>
 
-        <footer>
-            <div class="container">
-                <p>2021 - Réalisé par Maxime Kerfourn</p>
-                <p>&copy; All rights reserved.</p>
-            </div>
+        <footer class="footer">
+            2021 - Réalisé par Maxime Kerfourn
+            <br/>
+            &copy; All rights reserved.
         </footer>
     </body>
 </html>
